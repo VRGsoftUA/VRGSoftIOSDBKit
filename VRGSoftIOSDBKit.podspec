@@ -6,18 +6,18 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   #root
     s.name      = 'VRGSoftIOSDBKit'
-    s.version   = '2.0.0'
+    s.version   = '1.0.0'
     s.summary   = 'VRGSoftIOSDBKit descriptions'
     s.license  = 'MIT'
     s.swift_version = '5.0'
     s.homepage  = 'https://vrgsoft.net/'
     s.authors   = {'semenag01' => 'semenag01@meta.ua'}
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-    s.source    = { :git => 'https://github.com/VRGsoftUA/VRGSoftIOSDBKit', :branch => 'master', :tag => '1.0.0' }
+    s.source    = { :git => 'https://github.com/VRGsoftUA/VRGSoftIOSDBKit.git', :branch => 'master', :tag => '1.0.0' }
 
     #platform
         s.platform = :ios
