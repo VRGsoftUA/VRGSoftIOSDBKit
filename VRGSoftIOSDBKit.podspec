@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   #root
-    s.name      = 'VRGSoftSwiftIOSKit'
+    s.name      = 'VRGSoftIOSDBKit'
     s.version   = '2.0.0'
     s.summary   = 'VRGSoftIOSDBKit descriptions'
     s.license  = 'MIT'
